@@ -19,7 +19,7 @@ public class DescriptionCommands {
     String _4_ = "Delete file";
     String _5_ = "Rename file";
     String _6_ = "Remove file in other directiry";
-    String _7_ = "Archiving";
+    String _7_ = "May be Archiving ";
     String _8_ = "Function of COllections";
 
     int numberCommand;
@@ -31,7 +31,7 @@ public class DescriptionCommands {
     }
 
     String desribeFunctional() {
-        String information = "Command don't enter";
+        String information = "Command don't enter ";
         switch (numberCommand) {
             case (1):
                 information = _1_;
